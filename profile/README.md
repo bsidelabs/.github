@@ -1,6 +1,6 @@
 # B-Side Labs
 
-**Building a science of AI character under pressure.**  
+**Building a science of AI character under pressure**  
 We design evaluations, benchmarks, and interpretability tools to measure and mitigate AI persona instability in frontier models and agentic systems.
 
 ---
