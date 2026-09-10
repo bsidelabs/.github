@@ -71,5 +71,5 @@ Our research output is structured for direct integration across three domains:
 
 ## Connect
 
-- **Website:** [bsidelabs.vercel.app](https://bsidelabs.vercel.app/)
+- **Website:** [bsidelabs.ai](https://bsidelabs.ai/)
 - **Contact / Collaborations:** Open to research fellows, grant partnerships, and compute collaborations. Reach out via our website or open an issue/discussion in our repositories.
