@@ -7,7 +7,7 @@ We design evaluations, benchmarks, and interpretability tools to measure and mit
 
 ## Core Thesis
 
-Frontier AI models do not have stable behavioral characters. Their expressed values, safety commitments, and identity-consistent responses degrade under social and contextual pressure in ways that are mechanistically distinct, predictable, and understudied.
+Frontier AI models do not have stable behavioral characters. Their expressed values, safety commitments, and identity-consistent responses degrade under social and contextual pressure. We hypothesize these failure modes follow distinct, predictable structures — and that they remain understudied relative to their deployment risk.
 
 When pushed, models organically drift away from their intended Assistant persona—a trajectory linked directly to an increased likelihood of producing harmful or unaligned outputs. 
 
@@ -23,9 +23,9 @@ Model degradation follows the specific structure of the pressure applied:
 
 ## Why This Matters
 
-In conversational chat settings, persona instability manifests as sycophancy or nuisance behavior. In autonomous agentic systems, character instability becomes an existential operational threat.
+In conversational chat settings, persona instability manifests as sycophancy or nuisance behavior. In autonomous agentic systems, character instability becomes a serious operational risk.
 
-The underlying mechanisms that cause a model to abandon a factual position under social pressure are identical to those that cause a deployed agent to:
+Plausibly, the same mechanisms that cause a model to abandon a factual position under social pressure also cause a deployed agent to:
 - **Bypass safety constraints** under accumulated narrative framing.
 - **Defer to unverified authority claims** within automated execution pipelines without human oversight.
 - **Validate or reinforce dangerous user delusions**, social isolation, or self-harm trajectories over extended context windows.
@@ -48,7 +48,7 @@ We categorize character degradation across three primary pressure types and an a
 ## Research Program
 
 1. **Pressure-Discriminative Evaluation Suite:** Benchmarks that hold informational content strictly constant while systematically varying social, authority, and narrative pressure—cleanly separating genuine Bayesian updating from capitulation.
-2. **Real-Time Character Drift Detection:** Extracting internal activation signals (building on Assistant Axis projections) to establish quantitative, real-time metrics for model coherence and persona drift during deployment.
+2. **Real-Time Character Drift Detection:** Quantitative, real-time metrics for model coherence and persona drift during deployment. Behavioral (black-box) metrics are the near-term focus; activation-level signals (building on Assistant Axis projections) are a longer-term goal pursued on open-weight models and through lab collaborations, since they require internals access.
 3. **Inference-Time & Training Interventions:** Practical mitigation techniques—including steering, activation capping, and targeted midtraining data strategies—to harden default model personas against external pressure without destroying legitimate responsiveness.
 
 ---
@@ -65,7 +65,8 @@ Our research output is structured for direct integration across three domains:
 
 ## Repositories & Active Work
 
-- [`doomsday-prepper-pilot`](https://github.com/bsidelabs/pdoom) — *Pilot-scale evaluation testing Type C Narrative Drift under p(doom) framing.*
+- [`virtue-council-benchmark`](https://github.com/bsidelabs/virtue-council-benchmark)
+- [`multi-agent-dominance`](https://github.com/bsidelabs/multi-agent-dominance)
 
 ---
 
