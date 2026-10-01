@@ -1,7 +1,7 @@
 # B-Side Labs
 
 **Building a science of AI character under pressure**  
-We design evaluations, benchmarks, and interpretability tools to measure and mitigate AI persona instability in frontier models and agentic systems.
+We design evaluations, benchmarks, and live-monitoring tools to measure and mitigate AI persona instability in frontier models and agentic systems.
 
 ---
 
@@ -23,7 +23,7 @@ Model degradation follows the specific structure of the pressure applied:
 
 ## Why This Matters
 
-In conversational chat settings, persona instability manifests as sycophancy or nuisance behavior. In autonomous agentic systems, character instability becomes a serious operational risk.
+In conversational chat settings, persona instability manifests as sycophancy or annoyance. In autonomous agentic systems, character instability becomes a serious operational risk.
 
 Plausibly, the same mechanisms that cause a model to abandon a factual position under social pressure also cause a deployed agent to:
 - **Bypass safety constraints** under accumulated narrative framing.
@@ -53,6 +53,10 @@ We categorize character degradation across three primary pressure types and an a
 
 ---
 
+## Writing & Findings
+[Announcing B-Side Labs: Measuring Character](https://www.lesswrong.com/posts/PcJSvtpwsu6pWSz5z/announcing-b-side-labs-measuring-character-seeking-1) (LessWrong, Sept 2026) — launch write-up with an initial model-behavior finding and methodology caveats.
+---
+
 ## Theory of Change & Output
 
 Our research output is structured for direct integration across three domains:
@@ -65,8 +69,8 @@ Our research output is structured for direct integration across three domains:
 
 ## Repositories & Active Work
 
-- [`virtue-council-benchmark`](https://github.com/bsidelabs/virtue-council-benchmark)
-- [`multi-agent-dominance`](https://github.com/bsidelabs/multi-agent-dominance)
+- [`virtue-council-benchmark`](https://github.com/bsidelabs/virtue-council-benchmark): benchmark for social/authority capitulation; full run sets complete
+- [`multi-agent-dominance`](https://github.com/bsidelabs/multi-agent-dominance): can a dominant-persona agent hijack a multi-agent system? Pilot shows a consistent directional effect; pre-registered full study in progress.
 
 ---
 
